@@ -8,7 +8,28 @@
   Or add your statements here:
  */
 body{
-  font-family: sans-serif;
+  font-family: "eskapade-fraktur",serif;
   font-size: 1em;
   text-align: center;
+  height:100%;
+}
+
+.logo{
+  position:fixed;
+  z-index:100;
+  bottom:5px;
+  right:5px;
+}
+
+section{
+
+}
+.center{
+  position: absolute;
+  margin: auto;
+  top: 15px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
 }
