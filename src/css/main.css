@@ -2,29 +2,29 @@
   You can use import statements to include partials:
  */
 @import "imports/reset.css";
-
+@import "imports/variables.css";
 
 /*
   Or add your statements here:
  */
-body{
-  font-family: "eskapade-fraktur",serif;
+body {
+  font-family: var(--font-family), serif;
   font-size: 1em;
   text-align: center;
   height:100%;
 }
 
-.logo{
+.logo {
   position:fixed;
   z-index:100;
   bottom:5px;
   right:5px;
 }
 
-section{
+section {
 
 }
-.center{
+.center {
   position: absolute;
   margin: auto;
   top: 15px;
