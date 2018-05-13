@@ -23,9 +23,6 @@ backend:
 [Get Started](https://github.com/peterramsing/lost)
 [Docs](http://lostgrid.org/docs.html)
 
-### POSTCSS variables
-[Docs](https://www.npmjs.com/package/postcss-css-variables)
-
 ### POSTCSS Colour functions
 [Docs](https://www.npmjs.com/package/postcss-colour-functions)
 
