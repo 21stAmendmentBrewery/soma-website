@@ -1,11 +1,8 @@
-<!doctype html>
-<html lang="{{ $.Site.Language.Lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
-    <title>{{ $.Site.Title }}</title>
-    <link rel="stylesheet" href="https://use.typekit.net/tob8pyq.css">
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
-  <body>
+<header>
+  <a href="/">SOMA Beer Co.</a>
+  <ul>
+   <li><a href="https://www.instagram.com/somabeerco/">Instagram</a></li>
+   <li><a href="/beers/ipa">IPA</a></li>
+   <li><a href="/beers/blonde">Blonde</a></li>
+ </ul>
+</header>
