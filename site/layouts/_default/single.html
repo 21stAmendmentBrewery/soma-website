@@ -1,6 +1,12 @@
 {{ define "main" }}
 
 <section>
+  <h1>{{ .Params.title }}</h1>
+  <ul>
+  <strong class="ingredients-title">IBUs</strong> {{ .Params.ibu }}
+  <strong class="ingredients-title">Alc./Vol.</strong> {{ .Params.abv }}
+  <strong class="ingredients-title">Malts</strong> {{ delimit .Params.malts ", " }}
+  <strong class="ingredients-title">Hops</strong> {{ delimit .Params.hops ", " }}
   {{ .Content }}
 </section>
 
